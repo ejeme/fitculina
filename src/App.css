@@ -7,7 +7,7 @@
 }
 
 .Landing-header {
-  background-color: #282c34;
+  background-color: rgb(12, 29, 15);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(12, 29, 15);
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -40,4 +40,22 @@
 
 .body {
   min-height: 100vh;
+}
+
+.recipe-container {
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 40vh;
+  margin: 8px 25px;
+  border: 5px solid rgb(241, 241, 241);
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.recipe-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.1s;
 }
